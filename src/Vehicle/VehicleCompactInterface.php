@@ -9,6 +9,5 @@ interface VehicleCompactInterface
     public function getNamaMobil(): string;
     public function getImageUrl(): string;
     public function getTipeMobil(): string;
-
     public function getActionUrl(): string;
 }
