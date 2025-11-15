@@ -8,7 +8,6 @@ interface VehicleMultiHargaInterface extends VehicleCompactInterface
 {
 
     /**
-     *
      * @return VehicleCompactHargaInterface[]|VehicleNotAvailableHargaInterface[]
      */
     public function getPaketHargas(): array;
