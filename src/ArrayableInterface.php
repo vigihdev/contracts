@@ -6,6 +6,5 @@ namespace Vigihdev\Contracts;
 
 interface ArrayableInterface
 {
-
     public function toArray(): array;
 }
