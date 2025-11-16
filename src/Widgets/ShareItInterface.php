@@ -8,5 +8,6 @@ interface ShareItInterface
 {
     public function getName(): string;
     public function getIconUrl(): string;
+
     public function getShareUrl(): string;
 }
