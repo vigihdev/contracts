@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Vigihdev\Contracts;
+namespace Vigihdev\Contracts\Whatsapp;
 
 interface WhatsappSendInterface
 {

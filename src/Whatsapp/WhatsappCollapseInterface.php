@@ -2,12 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Vigihdev\Contracts;
+namespace Vigihdev\Contracts\Whatsapp;
 
 interface WhatsappCollapseInterface
 {
 
     public function getTitle(): string;
-
     public function getDescription(): string;
+    /**
+     *
+     * @return WhatsappSendInterface[]
+     */
+    public function getItems(): array;
 }
