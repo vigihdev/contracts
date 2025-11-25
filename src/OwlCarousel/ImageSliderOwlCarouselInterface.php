@@ -7,6 +7,10 @@ namespace Vigihdev\Contracts\OwlCarousel;
 interface ImageSliderOwlCarouselInterface
 {
 
+    /**
+     *
+     * @return string
+     */
     public function getName(): string;
 
     public function getImageUrl(): string;
