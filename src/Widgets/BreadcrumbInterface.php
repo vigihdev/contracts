@@ -8,5 +8,5 @@ interface BreadcrumbInterface
 {
     public function getLabel(): string;
     public function getTitle(): string;
-    public function getUrl(): string;
+    public function getUrl(): ?string;
 }
